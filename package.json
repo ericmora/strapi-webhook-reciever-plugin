@@ -1,6 +1,6 @@
 {
   "name": "strapi-webhook-reciever-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "It's a plugin for strapi4 that allows you be informed of any other strapi entity update.",
   "strapi": {
     "name": "webhook-reciever",
