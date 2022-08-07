@@ -4,14 +4,15 @@ It's a plugin for strapi4 that allows you be informed of any other strapi entity
 ## How to install manually?
 1. Copy files all files of this project to ./src/plugins/webhook-reciever
 2. Create file ./config/plugins.js (if not exist) and copy next:
-´´´
+
+```
 module.exports = {
     webhook-reciever: {
       enabled: true,
       resolve: './src/plugins/enki',
     }
   };
-´´´
+```
 
 ## Configuration of Strapi webhooks
 * *Headers:* you must add origin header with the value of your integration service plugin.
