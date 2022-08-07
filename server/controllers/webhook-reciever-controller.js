@@ -15,11 +15,11 @@ function  checkIfExistAndRun(strapi, serviceName, method, entity){
 module.exports = ({ strapi }) => ({
   
   index(ctx) {
-    if ( ctx.request.header  && ctx.request.header.microservice ){
+    if ( ctx.request.header  && ctx.request.header.strapiname ){
         
         if (ctx.request.body.event  && ctx.request.body.event.includes("entry.")){
 
-            let microservice = ctx.request.header.microservice;
+            let microservice = ctx.request.header.strapiname;
             let modelType = ctx.request.body.model;
             let event = ctx.request.body.event;
             event = event.replace('entry.', '');

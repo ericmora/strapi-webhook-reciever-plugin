@@ -1,5 +1,7 @@
 # strapi-webhook-reciever-plugin
-It's a plugin for strapi4 that allows you be informed of any other strapi entity update
+It's a plugin for strapi4 that allows you be informed of any other strapi entity update.
+You can use this plugin to split a monolith with strapi in some micro-headless and having all of them syncronized and unacopled.
+Or, simply if you need syncronize 2 strapis, using this connector you will get all the information sync with webhooks.
 
 ## How to install manually?
 1. Copy files all files of this project to ./src/plugins/webhook-reciever
@@ -15,7 +17,7 @@ module.exports = {
 ```
 
 ## Configuration of Strapi webhooks
-* *Headers:* you must add origin header with the value of your integration service plugin.
+* *Headers:* you must add *strapiname* header. The value of the name is the same that you will use in your integration service plugin.
 * *URL:* [[API-URL]]/webhook-reciever/from-other-strapi (first *webhook-receiver* is related with plugin.js file configuration key and second one *from-other-strapi* is related with routes file)
 
 ## Integration Service
