@@ -1,0 +1,27 @@
+{
+  "name": "strapi-webhook-reciever-plugin",
+  "version": "0.0.1",
+  "description": "It's a plugin for strapi4 that allows you be informed of any other strapi entity update.",
+  "strapi": {
+    "name": "webhook-reciever",
+    "description": "It's a plugin for strapi4 that allows you be informed of any other strapi entity update",
+    "kind": "plugin",
+    "displayName": "Strapi Webhook Reciever Plugin"
+  },
+  "dependencies": {},
+  "author": {
+    "name": "Eric Mora",
+    "email": "ericmora82@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "Eric Mora",
+    "email": "ericmora82@gmail.com"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
