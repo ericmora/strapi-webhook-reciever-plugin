@@ -9,7 +9,7 @@ It's a plugin for strapi4 that allows you be informed of any other strapi entity
 module.exports = {
     webhook-reciever: {
       enabled: true,
-      resolve: './src/plugins/enki',
+      resolve: './src/plugins/webhook-reciever',
     }
   };
 ```
