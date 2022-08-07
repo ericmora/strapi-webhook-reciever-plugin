@@ -20,6 +20,8 @@ You can go to /admin/settings/webhooks and create a new webhook
 ## Integration Service
 On the reciever strapi you need create a plugin with methods of each entity action that you want to react.
 
+* Check this sample for more information https://github.com/ericmora/strapi-integration-service-example
+
 ## How to install manually?
 1. Copy files all files of this project to ./src/plugins/webhook-reciever
 2. Create file ./config/plugins.js (if not exist) and copy next:
